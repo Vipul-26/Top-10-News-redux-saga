@@ -1,0 +1,9 @@
+.container {
+	background-color: red !important;
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		background-color: ghostwhite !important;
+	}
+}
