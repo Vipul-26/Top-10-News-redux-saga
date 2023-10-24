@@ -13,4 +13,3 @@ export const receivedPosts = (data) => ({
   type: "RECEIVE_POSTS",
   payload: data.articles,
 });
-

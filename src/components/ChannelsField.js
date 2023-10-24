@@ -1,8 +1,7 @@
-import React from 'react';
-import Channel from '../containers/Channel';
+import React from "react";
+import Channel from "../containers/Channel";
 
 const ChannelsField = ({ setDisabled }) => {
-
   const channelData = [
     {
       channelString: "BBC",
@@ -23,18 +22,23 @@ const ChannelsField = ({ setDisabled }) => {
     {
       channelString: "TIME",
       channelName: "time",
-    }
+    },
   ];
 
   return (
     <div className="row">
       {channelData.map((data, id) => {
         return (
-          <Channel key={id} channelString={data.channelString} channelName={data.channelName} setDisabled={setDisabled} />
-        )
+          <Channel
+            key={id}
+            channelString={data.channelString}
+            channelName={data.channelName}
+            setDisabled={setDisabled}
+          />
+        );
       })}
     </div>
   );
-}
+};
 
 export default ChannelsField;

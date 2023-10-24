@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### redux-persist
+
+[https://github.com/rt2zz/redux-persist/blob/HEAD/docs/api.md](https://github.com/rt2zz/redux-persist/blob/HEAD/docs/api.md)
+
+[https://www.npmjs.com/package/redux-persist](https://www.npmjs.com/package/redux-persist)
+
+[https://www.npmjs.com/package/redux-persist-transform-filter](https://www.npmjs.com/package/redux-persist-transform-filter)
